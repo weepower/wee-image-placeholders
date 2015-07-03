@@ -1,0 +1,18 @@
+{
+	"name": "Image Placeholders",
+	"version": "1.0.0",
+	"description": "Wee module for creating placeholders for testing and wireframing.",
+	"homepage": "https://www.weepower.com",
+	"author": "Wee",
+	"autoload": true,
+	"style": {
+		"build": [
+			"css/variables.less"
+		]
+	},
+	"dependencies": {
+		"wee": "^2.4.0",
+		"wee/dom": "^2.4.0",
+		"wee/events": "^2.4.0"
+	}
+}

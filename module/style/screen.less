@@ -1,0 +1,28 @@
+// Image Placeholders (weepower.com)
+// Licensed under Apache 2 (http://www.apache.org/licenses/LICENSE-2.0)
+// DO NOT MODIFY
+
+.wee-placeholder (@ratio: (16 / 9)) {
+	.background(@imagePlaceholderBackground);
+	.fill();
+	.ratio(@ratio);
+	.relative();
+	.check () when not (@imagePlaceholderBorderColor = false) {
+		.border(@imagePlaceholderBorderColor);
+	}
+	.check();
+}
+.wee-placeholder-text () {
+	.absolute(50%);
+	.align(center);
+	.block(100%);
+	.color(@imagePlaceholderColor);
+	.font(@headingFont; 2.3);
+	.line-height(0);
+}
+[data-placeholder] {
+	.wee-placeholder();
+}
+.js-placeholder-text {
+	.wee-placeholder-text();
+}
