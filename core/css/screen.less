@@ -3,12 +3,12 @@
 // DO NOT MODIFY
 
 .wee-placeholder (@ratio: (16 / 9)) {
-	.background(@imagePlaceholderBackground);
+	.background(@background);
 	.fill();
 	.ratio(@ratio);
 	.relative();
-	.check () when not (@imagePlaceholderBorderColor = false) {
-		.border(@imagePlaceholderBorderColor);
+	.check () when not (@borderColor = false) {
+		.border(@borderColor);
 	}
 	.check();
 }
@@ -16,7 +16,7 @@
 	.absolute(50%);
 	.align(center);
 	.block(100%);
-	.color(@imagePlaceholderColor);
+	.color(@color);
 	.font(@headingFont; 2.3);
 	.line-height(0);
 }
