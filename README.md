@@ -10,29 +10,29 @@ Default placeholder with 16:9 fluid ratio.
 <img data-placeholder>
 ```
 
-The fluid ratio can be overridden by setting the value of the `data-placeholder` attribute.
+Override the ratio by setting the value of the `data-placeholder` attribute.
 
 ```html
 <img data-placeholder="2:1">
 ```
 
-To set the image to be fixed set the `data-fluid` attribute to false.
+To disable fluid width set the `data-fluid` attribute to false.
 
 ```html
 <img data-placeholder data-fluid="false">
 ```
 
-By default the current dimensions of the placeholder are printed on the image. You can specify the text by setting the `data-text` attribute.
+By default the current dimensions of the placeholder are output on the image. Specify the text by setting the `data-text` attribute.
 
 ```html
-<img data-placeholder data-text="Hero Image">
+<img data-placeholder data-text="Primary Image">
 ```
 
 You can customize the default styling of the placeholders by overriding the default modules variables.
 
-## Quick Start
+## Get Started
 
-Get started using one of these methods:
+Install the module using one of these methods:
 
 * [Download the latest release](https://github.com/weepower/wee-image-placeholders/archive/master.zip) or
 * Clone the repository from `git clone git://github.com/weepower/wee-image-placeholders.git`
