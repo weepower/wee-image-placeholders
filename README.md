@@ -37,6 +37,8 @@ Install the module using one of these methods:
 * [Download the latest release](https://github.com/weepower/wee-image-placeholders/archive/master.zip) or
 * Clone the repository from `git clone git://github.com/weepower/wee-image-placeholders.git`
 
+Then place the "wee-image-placeholders" folder in your source/modules directory.
+
 ## Bugs
 
 Have a bug or a feature request? [Open a new issue](https://github.com/weepower/wee-image-placeholders/issues).  
